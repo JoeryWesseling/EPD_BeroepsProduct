@@ -16,10 +16,7 @@ void setup() {
 
 
 void loop() {
-  Serial.println(getDisplayNumber(4),BIN);
-
   railRoadStateMachine();
-  serialMonitorLoop();
-  buttonStateLoop();
+  buttonStateMachine();
 }
 
